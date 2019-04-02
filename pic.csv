@@ -1,28 +1,57 @@
-Complexity metrics,星期二, 26 三月 2019 00:54:43 CST
+Complexity metrics,星期二, 26 三月 2019 16:46:31 CST
 Method,ev(G),iv(G),v(G)
-"ComputePoly.ComputePoly()",1,1,1
-"ComputePoly.combine()",4,4,5
-"ComputePoly.compute()",6,14,17
-"ComputePoly.judge(String)",3,2,4
-"ComputePoly.main(String[])",3,6,8
-"ComputePoly.myMatch(String)",1,1,1
-"ComputePoly.parsePoly(String)",1,15,16
-"ComputePoly.work(Poly)",1,6,6
-"Poly.Poly(BigInteger,BigInteger)",1,1,1
-"Poly.coeff()",1,1,1
-"Poly.degree()",1,1,1
-"Poly.diff()",2,1,2
+"CosFactor.CosFactor()",1,1,1
+"CosFactor.CosFactor(BigInteger)",1,1,1
+"CosFactor.CosFactor(String)",1,1,1
+"CosFactor.Derivation()",1,4,4
+"CosFactor.ToString()",1,2,2
+"Factor.Combine(Factor)",5,5,5
+"Factor.Factor()",1,1,1
+"Factor.Factor(BigInteger)",1,1,1
+"Factor.Factor(String)",1,2,2
+"Factor.getDegree()",1,1,1
+"Main.main(String[])",1,2,2
+"Poly.Derivation()",1,2,2
+"Poly.Poly(ArrayList<Product>)",5,6,7
+"Poly.Poly(String)",12,9,17
+"Poly.ToString()",3,8,9
+"Poly.judgeFormat(String)",2,2,3
+"Poly.matchProduct(String)",2,2,2
+"PowerFactor.Derivation()",1,3,3
+"PowerFactor.PowerFactor()",1,1,1
+"PowerFactor.PowerFactor(BigInteger)",1,1,1
+"PowerFactor.PowerFactor(String)",1,1,1
+"PowerFactor.ToString()",1,2,2
+"Product.Combine(Product)",2,2,2
+"Product.Derivation()",1,2,2
+"Product.Product(ArrayList<Factor>,BigInteger)",4,7,7
+"Product.Product(String)",5,8,12
+"Product.ToString()",1,13,13
+"Product.canCombine(Product)",6,5,7
+"Product.getCoeff()",1,1,1
+"Product.getRegex()",1,1,1
+"Product.work(Factor)",3,6,6
+"SinFactor.Derivation()",1,4,4
+"SinFactor.SinFactor()",1,1,1
+"SinFactor.SinFactor(BigInteger)",1,1,1
+"SinFactor.SinFactor(String)",1,1,1
+"SinFactor.ToString()",1,2,2
 
 Class,OCavg,WMC
-"ComputePoly",6.38,51
-"Poly",1.25,5
+"CosFactor",1.60,8
+"Factor",2.00,10
+"Main",1.00,1
+"Poly",6.17,37
+"PowerFactor",1.40,7
+"Product",5.44,49
+"SinFactor",1.60,8
 
 Package,v(G)avg,v(G)tot
-"",5.25,63
+"",3.58,129
 
 Module,v(G)avg,v(G)tot
-"HW1final",5.25,63
+"HM2",3.58,129
 
 Project,v(G)avg,v(G)tot
-"project",5.25,63
+"project",3.58,129
 
